@@ -102,6 +102,14 @@ ul:hover {
   outline: none;
 }
 
+.categories__title{
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+}
+
 .carousel{
   width: 100%;
   position: relative;
@@ -163,4 +171,22 @@ ul:hover {
 
 .carousel-item__details:hover{
   opacity: 1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px;   
+  background:#8f57fd;
+  border-radius: 4px;
+}
+::-webkit-scrollbar:hover {
+  background: #8f57fd;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar:hover:active {
+  background: #8f57fd;
 }
